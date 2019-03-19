@@ -4,6 +4,7 @@ import './App.css';
 import 'semantic-ui-css/semantic.min.css';
 import Hero from './Components/Hero';
 import Work from './Components/Work';
+import Portfolio from './Components/Portfolio';
 
 class App extends Component {
   render() {
@@ -14,6 +15,8 @@ class App extends Component {
         </header>
 <Hero/>
 <Work/>
+<Portfolio/>
+
 
 
       </div>

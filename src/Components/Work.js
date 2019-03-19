@@ -100,7 +100,7 @@ function Work() {
                                 <Card.Description>Develop the website</Card.Description>
                             </Card.Content>
                             <Card.Content extra>
-                                <a>
+                                <a href="https://www.bicosrestaurante.com/" target="_blank" rel="noreferrer noopener">
                                     <Icon name='mouse pointer'  />
                                     Go to site
       </a>
@@ -111,14 +111,14 @@ function Work() {
                         <Card centered>
                             <Image src={info} size="small" centered />
                             <Card.Content>
-                                <Card.Header>Info Party London</Card.Header>
+                                <Card.Header>Marketing Agency</Card.Header>
                                 <Card.Meta>
                                     <span className='date'>Founder</span>
                                 </Card.Meta>
-                                <Card.Description> PR and Promotion Agency</Card.Description>
+                                <Card.Description> Marketing Campaings for music events </Card.Description>
                             </Card.Content>
                             <Card.Content extra>
-                                <a>
+                                <a href="https://www.facebook.com/InfopartyLdn/" target="_blank" rel="noreferrer noopener">
                                     <Icon name='mouse pointer' />
                                     Go to site
       </a>
