@@ -1,6 +1,7 @@
 {
   "name": "martin",
   "version": "0.1.0",
+  "homepage": "https://martinreboredo.com/",
   "private": true,
   "dependencies": {
     "react": "^16.8.4",
@@ -8,7 +9,8 @@
     "react-scripts": "2.1.8",
     "react-slick": "^0.23.2",
     "semantic-ui-css": "^2.4.1",
-    "semantic-ui-react": "^0.86.0"
+    "semantic-ui-react": "^0.86.0",
+    "slick-carousel": "^1.8.1"
   },
   "scripts": {
     "start": "react-scripts start",

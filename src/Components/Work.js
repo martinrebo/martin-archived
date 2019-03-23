@@ -1,28 +1,33 @@
 import React from 'react';
-import { Card, Icon, Grid, Image } from 'semantic-ui-react';
+import {Divider, Header, Card, Icon, Grid, Image } from 'semantic-ui-react';
 import OdigeoLogo from './../img/odigeo-logo.jpg';
 import playbusiness from './../img/play-logo.png';
 import aguafy from './../img/aguafy-logo.png';
 import exclusivas from './../img/faro-logo.png';
-import bicos from './../img/bicos-logo.jpg';
+import bicos from './../img/bicos-logo.png';
 import info from './../img/info-logo.png';
 
 
 function Work() {
     return (
         <>
-        <h1> Work Experience </h1>
+               <Divider horizontal section >
+      <Header as='h2'>
+        Work Experience
+      </Header>
+    </Divider>
+    <br/>  <br/>
             <Grid container doubling stackable>
                 <Grid.Row columns={3}>
                     <Grid.Column>
                         <Card centered>
-                            <Image src={OdigeoLogo}  />
+                            <Image src={OdigeoLogo} size="small" centered  />
                             <Card.Content>
                                 <Card.Header>Online Travel Agency</Card.Header>
                                 <Card.Meta>
                                     <span className='date'>SEO Webmaster</span>
                                 </Card.Meta>
-                                <Card.Description>Develop Webpages for Content Campaings</Card.Description>
+                                <Card.Description>Develop SEO Webpages </Card.Description>
                             </Card.Content>
                             <Card.Content extra>
                                 <a href="https://www.edreamsodigeo.com/" target="_blank" rel="noreferrer noopener">
@@ -34,9 +39,9 @@ function Work() {
                     </Grid.Column>
                     <Grid.Column>
                         <Card centered>
-                            <Image src={playbusiness}  />
+                            <Image src={playbusiness}  size="small" centered />
                             <Card.Content>
-                                <Card.Header>Company Builder & Crowdfunding </Card.Header>
+                                <Card.Header> Crowdfunding </Card.Header>
                                 <Card.Meta>
                                     <span className='date'>Marketing Manager</span>
                                 </Card.Meta>
@@ -52,18 +57,18 @@ function Work() {
                     </Grid.Column>
                     <Grid.Column>
                         <Card centered>
-                            <Image src={aguafy}  />
+                            <Image src={aguafy} size="small" centered />
                             <Card.Content>
                                 <Card.Header>Water Distribution </Card.Header>
                                 <Card.Meta>
                                     <span className='date'>Web Developer</span>
                                 </Card.Meta>
-                                <Card.Description>Design and Develop the ecommerce platform </Card.Description>
+                                <Card.Description>Develop ecommerce platform </Card.Description>
                             </Card.Content>
                             <Card.Content extra>
                                 <a href="https://aguafy.com/" target="_blank" rel="noreferrer noopener" >
                                     <Icon name='mouse pointer' />
-                                    Go to shop
+                                    Go to site
       </a>
                             </Card.Content>
                         </Card>
