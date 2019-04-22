@@ -62,7 +62,7 @@ export default function Portfolio() {
                 <Slider {...settings}>
                     <div className="w-slick-card"> 
                        
-                        <Card centered>
+                        <Card centered color="black">
                             <Image src={gamelab} size="small" centered />
                             <Card.Content>
                                 <Card.Header>Game Lab 33 </Card.Header>
@@ -92,7 +92,7 @@ export default function Portfolio() {
                     </div>
                     <div className="w-slick-card">
                    
-                        <Card centered>
+                        <Card centered color="black">
                             <Image src={myTaxi} size="small" centered />
                             <Card.Content>
                                 <Card.Header> My Taxi </Card.Header>
@@ -121,7 +121,7 @@ export default function Portfolio() {
                     </div>
                     <div className="w-slick-card">
                 
-                        <Card centered>
+                        <Card centered color="black">
                             <Image src={rakuten} size="small" centered />
                             <Card.Content>
                                 <Card.Header>Rakuten TV </Card.Header>
@@ -150,7 +150,7 @@ export default function Portfolio() {
                     </div>
                     <div className="w-slick-card">
                    
-                        <Card centered>
+                        <Card centered color="black">
                             <Image src={logo} size="tiny" centered />
                             <Card.Content>
                                 <Card.Header>React Dress </Card.Header>
@@ -179,7 +179,7 @@ export default function Portfolio() {
                     </div>
                     <div className="w-slick-card">
                   
-                        <Card centered>
+                        <Card centered color="black">
                             <Image src={oldPortfolio} size="small" centered />
                             <Card.Content>
                                 <Card.Header>Old Portfolio </Card.Header>

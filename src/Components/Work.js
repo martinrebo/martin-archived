@@ -12,15 +12,15 @@ function Work() {
     return (
         <>
                <Divider horizontal section >
-      <Header as='h2'>
-        Work Experience
+      <Header as='h2' content="Experience" subheader="More info at  Linkedin">
+
       </Header>
     </Divider>
     <br/>  <br/>
             <Grid container doubling stackable>
                 <Grid.Row columns={3}>
                     <Grid.Column>
-                        <Card centered>
+                        <Card centered color="blue">
                             <Image src={OdigeoLogo} size="small" centered  />
                             <Card.Content>
                                 <Card.Header>Online Travel Agency</Card.Header>
@@ -38,7 +38,7 @@ function Work() {
                         </Card>
                     </Grid.Column>
                     <Grid.Column>
-                        <Card centered>
+                        <Card centered color="green">
                             <Image src={playbusiness}  size="small" centered />
                             <Card.Content>
                                 <Card.Header> Crowdfunding </Card.Header>
@@ -56,7 +56,7 @@ function Work() {
                         </Card>
                     </Grid.Column>
                     <Grid.Column>
-                        <Card centered>
+                        <Card centered color="teal">
                             <Image src={aguafy} size="small" centered />
                             <Card.Content>
                                 <Card.Header>Water Distribution </Card.Header>
@@ -77,7 +77,7 @@ function Work() {
 
                 <Grid.Row columns={3}>
                     <Grid.Column>
-                        <Card centered>
+                        <Card centered color="orange">
                             <Image src={exclusivas} size="small" centered />
                             <Card.Content>
                                 <Card.Header>Logistics</Card.Header>
@@ -95,7 +95,7 @@ function Work() {
                         </Card>
                     </Grid.Column>
                     <Grid.Column>
-                        <Card centered>
+                        <Card centered color="olive">
                             <Image src={bicos} size="small" centered />
                             <Card.Content>
                                 <Card.Header>Restaurant</Card.Header>
@@ -113,7 +113,7 @@ function Work() {
                         </Card>
                     </Grid.Column>
                     <Grid.Column>
-                        <Card centered>
+                        <Card centered color="black">
                             <Image src={info} size="small" centered />
                             <Card.Content>
                                 <Card.Header>Marketing Agency</Card.Header>

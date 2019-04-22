@@ -9,32 +9,32 @@ function Hero() {
     return (
 
         <section>
-        <Grid centered verticalAlign='middle' columns={2}  className="hero" > 
-        <Grid.Row> 
-            <Grid.Column>
-            <div className="hero-content">
-            
+        <Grid centered  verticalAlign='middle' stackable columns="2"   className="hero" > 
+ <Grid.Column container  doubling >
 
+
+            <div className="hero-content">
                 <Header as='h1' floated='left'>
-                    Web Developer
+                    Martin Reboredo
     </Header>
                 <Divider clearing  />
                 <Header as='h2' floated='left' color="grey">
-                    Martin Reboredo
+                    Web Developer
+    </Header>
+    <Divider hidden clearing fitted  />
+    <Header as='h4' floated='left' color="grey">
+                    |  REACT  |  HTML  |  CSS  |  JS  |  SEO  | AGILE |
     </Header>
     <Divider clearing hidden fitted />
    
-    <a href=" https://www.linkedin.com/in/martin-reboredo-garcia/" target="_blank" rel="noopener noreferrer"> <Icon link name="linkedin alternate" size='large' /> </a>
+    <a href=" https://www.linkedin.com/in/martin-reboredo-garcia/" target="_blank" rel="noopener noreferrer" title="Linkedin"> <Icon link name="linkedin alternate" size="big" /> </a>
     
-    <a href="https://github.com/martinrebo" target="_blank" rel="noopener noreferrer"> <Icon link name="github" size='large' /> </a>
-    <a href="https://martinreboredo.com/blog/" target="_blank" rel="noopener noreferrer"> <Icon link name="blogger" size='large' /> </a>
+    <a href="https://github.com/martinrebo" target="_blank" rel="noopener noreferrer" title="Github"> <Icon link name="github" size='big' /> </a>
+    <a href="https://martinreboredo.com/blog/" target="_blank" rel="noopener noreferrer" title="Blog"> <Icon link name="blogger" size='big' /> </a>
     
             </div>
-            <Grid.Column>
-                
+
             </Grid.Column>
-            </Grid.Column>
-            </Grid.Row>
             </Grid>
 
         </section>
