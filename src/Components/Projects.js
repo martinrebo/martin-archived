@@ -35,7 +35,7 @@ export default function Projects() {
                             <Grid.Column width="6">
                                 <Image src={tinkarImg} href="https://tinkar.tk/" target='_blank' size="medium" alt="" />
                             </Grid.Column>
-                            <Grid.Column width="10">
+                            <Grid.Column  width="10">
                                 <Card fluid color="blue">
                                     <Card.Content>
                                         <Card.Header>Tinkar</Card.Header>
@@ -106,7 +106,7 @@ export default function Projects() {
                                 <Image src={rakutenImg} href="https://martinreboredo.com/proyectos/rakuten/" target='_blank' size="medium" alt="" />
                             </Grid.Column>
                             <Grid.Column width="10">
-                                <Card fluid color="black">
+                                <Card  fluid color="black">
                                     <Card.Content>
                                         <Card.Header>Rakuten</Card.Header>
                                         <Card.Meta> Mockup of the Rakuten TV Web App </Card.Meta>
@@ -179,7 +179,7 @@ export default function Projects() {
                                 <Image src={edeamsImg} href="https://www.edreams.es/vuelta-mundo-low-cost/" target='_blank' size="medium" alt="" />
                             </Grid.Column>
                             <Grid.Column width="10">
-                                <Card fluid color="orange">
+                                <Card fluid  color="orange">
                                     <Card.Content>
                                         <Card.Header>Edreams</Card.Header>
                                         <Card.Meta> Example of my work at eDreams </Card.Meta>
