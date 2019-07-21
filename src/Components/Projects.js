@@ -38,8 +38,8 @@ export default function Projects() {
                             <Grid.Column  width="10">
                                 <Card fluid color="blue">
                                     <Card.Content>
-                                        <Card.Header>Tinkar</Card.Header>
-                                        <Card.Meta> A Tinder Style web app for reading cards </Card.Meta>
+                                        <Card.Header>EScard</Card.Header>
+                                        <Card.Meta> Tinder Style  Javascript cards </Card.Meta>
                                         <Card.Description> Single Page Web App with CRUD operations </Card.Description>
 
                                     </Card.Content>
@@ -47,7 +47,7 @@ export default function Projects() {
                                         <Card.Description>
                                             <Container textAlign="justified">
                                                 This app is my personal project and currently I'm still working on it. The idea is to have a Progresive Web App (PWA) where the users can store cards and read them offline.
-                                                There are 3 main types of cards: Business, Tech and Health. Also the user can choose Light/Dark Mode.
+                                                The cards can be Podcasts, Blogs, Courses etc... Always related to Web Development. Also the user can choose Light/Dark Mode.
                                         </Container>
                                         </Card.Description>
                                     </Card.Content>
@@ -75,7 +75,7 @@ export default function Projects() {
                                         </Header>
                                         <Card.Description  >
                                             <Container textAlign="justified" >
-                                                The Single Page Application (SPA) was developed using React for the frontend and Google Firebase for the backend. The Frontend was created using the node package for "create-react-app". The the Users login is using Firebase Authentication with Facebook OAuth API. The database is using Firestore: A real time NoSQL Database. Next steps are to add PWA functionality and toimprove the UI/UX.
+                                                The Single Page Application (SPA) was developed using React for the frontend and Google Firebase for the backend. The Frontend was created using the node package for "create-react-app". The the Users login is using Firebase Authentication with Facebook OAuth API. The database is using Firestore: A real time NoSQL Database. Next steps are to add PWA functionality and to improve the UI/UX.
                                         </Container>
                                         <br/>
                                             <Label tag color="blue">React</Label>
@@ -86,10 +86,10 @@ export default function Projects() {
                                         </Card.Description>
                                     </Card.Content>
                                     <Card.Content>
-                                        <Label as="a" href="https://github.com/martinrebo/tinkar" href>
+                                        <Label as="a" href="https://github.com/martinrebo/escard-private">
                                             <Icon link name="github" size="big" /> See Code
                                         </Label>
-                                        <Label as="a" href="https://tinkar.tk/" >
+                                        <Label as="a" href="https://escard.tk/" >
                                             <Icon link name="mouse pointer" size="big" /> Go to site
                                         </Label>
 
@@ -158,7 +158,7 @@ export default function Projects() {
                                         </Card.Description>
                                     </Card.Content>
                                     <Card.Content>
-                                        <Label as="a" href="https://github.com/martinrebo/React-movie-and-moodsr" href>
+                                        <Label as="a" href="https://github.com/martinrebo/React-movie-and-moodsr">
                                             <Icon link name="github" size="big" /> See Code
                                         </Label>
                                         <Label as="a" href="https://martinreboredo.com/proyectos/rakuten/" >
@@ -217,8 +217,8 @@ export default function Projects() {
                                         </Header>
                                         <Card.Description  >
                                             <Container textAlign="justified" >
-                                                This Landing page is created previous an analyis of Keywords.  They are specially optimized for SEO by using Rich Text, WC3 and WCAG standards. The page is made pixel perfect from PSD.
-                                                The page is tested through a QA process to measure performance by Lighthouse among other factor. The page is deployed using an internal CMS tool. 
+                                                This Landing page is created using HTML, CSS, Javascript.  It is specially optimized for SEO by using Rich Text, WC3 and WCAG standards. It was made pixel perfect from a PSD file.
+                                                Before deployment it is tested through a QA process to measure performance by Lighthouse, ESlinter, W3C. The page is deployed using an internal CMS tool. 
                                         </Container>
                                         <br/> 
                                             <Label tag color="grey">HTML </Label>
@@ -229,7 +229,7 @@ export default function Projects() {
                                         </Card.Description>
                                     </Card.Content>
                                     <Card.Content>
-                                        <Label as="a" href="https://www.edreams.es/vuelta-mundo-low-cost/" href>
+                                        <Label as="a" href="https://www.edreams.es/vuelta-mundo-low-cost">
                                             <Icon link name="github" size="big" /> See Code
                                         </Label>
                                         <Label as="a" href="https://www.edreams.es/vuelta-mundo-low-cost/" >

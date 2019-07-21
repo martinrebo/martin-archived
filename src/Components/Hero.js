@@ -23,7 +23,13 @@ function Hero() {
     </Header>
     <Divider hidden clearing fitted  />
     <Header as='h4' floated='left' color="grey">
-                    |  REACT  |  HTML  |  CSS  |  JS  |  SEO  | AGILE |
+                    |  HTML  |  CSS  |  JS  |
+    </Header>
+    <Header as='h4' floated='left' color="grey">
+                    |  REACT  | BOOTSTRAP | SEMANTIC-UI | SASS | FIREBASE | AWS |
+    </Header>
+    <Header as='h4' floated='left' color="grey">
+                    |  GITHUB  | JIRA | AGILE | PHOTOSHOP |
     </Header>
     <Divider clearing hidden fitted />
    
