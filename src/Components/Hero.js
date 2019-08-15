@@ -1,5 +1,5 @@
 import React from 'react';
-import {Grid, Divider, Header, Icon } from 'semantic-ui-react'
+import {Grid, Divider, Header, Icon, Label } from 'semantic-ui-react'
 
 
 
@@ -19,17 +19,19 @@ function Hero() {
     </Header>
                 <Divider clearing  />
                 <Header as='h2' floated='left' color="grey">
-                    Web Developer
+                   Frontend Web Developer
     </Header>
     <Divider hidden clearing fitted  />
-    <Header as='h4' floated='left' color="grey">
+    <Header as='h3' floated='left' color="orange">
                     |  HTML  |  CSS  |  JS  |
     </Header>
-    <Header as='h4' floated='left' color="grey">
-                    |  REACT  | BOOTSTRAP | SEMANTIC-UI | SASS | FIREBASE | AWS |
+    <Divider clearing hidden fitted />
+    <Header as='h4' floated='left' color="teal">
+                    |  REACT  | BOOTSTRAP | SASS | FIREBASE | AWS |
     </Header>
-    <Header as='h4' floated='left' color="grey">
-                    |  GITHUB  | JIRA | AGILE | PHOTOSHOP |
+    <Divider clearing hidden fitted />
+    <Header as='h5' floated='left' color="olive">
+                    |  GITHUB  | JIRA | AGILE | UX / UI  | SEO |
     </Header>
     <Divider clearing hidden fitted />
    
@@ -37,6 +39,10 @@ function Hero() {
     
     <a href="https://github.com/martinrebo" target="_blank" rel="noopener noreferrer" title="Github"> <Icon link name="github" size='big' /> </a>
     <a href="https://martinreboredo.com/blog/" target="_blank" rel="noopener noreferrer" title="Blog"> <Icon link name="blogger" size='big' /> </a>
+    <Divider clearing  />
+    <Label>
+        <Icon name="mail" /> hello@martinreboredo.com
+    </Label>
     
             </div>
 

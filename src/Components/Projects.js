@@ -33,7 +33,7 @@ export default function Projects() {
                         <Grid stackable columns="2"
                             padded >
                             <Grid.Column width="6">
-                                <Image src={tinkarImg} href="https://tinkar.tk/" target='_blank' size="medium" alt="" />
+                                <Image src={tinkarImg} href="https://escard.tk/" target='_blank' size="medium" alt="" />
                             </Grid.Column>
                             <Grid.Column  width="10">
                                 <Card fluid color="blue">
@@ -46,8 +46,8 @@ export default function Projects() {
                                     <Card.Content>
                                         <Card.Description>
                                             <Container textAlign="justified">
-                                                This app is my personal project and currently I'm still working on it. The idea is to have a Progresive Web App (PWA) where the users can store cards and read them offline.
-                                                The cards can be Podcasts, Blogs, Courses etc... Always related to Web Development. Also the user can choose Light/Dark Mode.
+                                                This app is my personal project and currently I'm still working on it. The project is a Progresive Web App (PWA) where the users can store cards and read them offline.
+                                                The cards are interesting Podcasts, Blogs and Courses related to Web Development. Also the user can choose Light/Dark Mode.
                                         </Container>
                                         </Card.Description>
                                     </Card.Content>
@@ -61,7 +61,7 @@ export default function Projects() {
                                             <Icon name="angle right"/>   User can Login using Google and Facebook accounts and swipe cards.
                                             </List.Item>
                                             <List.Item floated="left">
-                                            <Icon name="angle right"/>   Only registered visitors can create new card.
+                                            <Icon name="angle right"/>   Only registered visitors can view and create new cards.
                                             </List.Item>
                                             <List.Item floated="left">
                                             <Icon name="angle right"/>   User can choose the style of the app (Ligh, Dark, Normal).
@@ -75,7 +75,7 @@ export default function Projects() {
                                         </Header>
                                         <Card.Description  >
                                             <Container textAlign="justified" >
-                                                The Single Page Application (SPA) was developed using React for the frontend and Google Firebase for the backend. The Frontend was created using the node package for "create-react-app". The the Users login is using Firebase Authentication with Facebook OAuth API. The database is using Firestore: A real time NoSQL Database. Next steps are to add PWA functionality and to improve the UI/UX.
+                                                The Single Page Application (SPA) was developed using React for the frontend and Google Firebase for the backend. The Frontend was created using the node package for "create-react-app" and is using React Hooks, Context Api, React Router and Semantic UI. The user login is created by Firebase Authentication with Facebook OAuth API. The database is using Firestore: A real time NoSQL Database. Next steps are to add PWA functionality and to improve the UI/UX.
                                         </Container>
                                         <br/>
                                             <Label tag color="blue">React</Label>
@@ -116,7 +116,7 @@ export default function Projects() {
                                     <Card.Content>
                                         <Card.Description>
                                             <Container textAlign="justified">
-                                                 This project was done in one weekend and used to apply for a job position in Rakuten TV in Barcelona. Future enhancement for this app is to add Mobies recomendatios based on Weather or other external factors. 
+                                                 This project was done in one weekend and used to apply for a job position in Rakuten TV in Barcelona. Future enhancement for this app is to add Movies recomendatios based on the local Weather and other external factors. 
                                         </Container>
                                         </Card.Description>
                                     </Card.Content>
