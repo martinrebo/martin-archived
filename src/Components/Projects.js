@@ -3,7 +3,8 @@ import Slider from "react-slick";
 import { Divider, Header, Card, Icon, Grid, Image, List, Container, Label } from 'semantic-ui-react';
 import tinkarImg from '../img/Tinkar.gif';
 import rakutenImg from '../img/rakuten.gif';
-import edeamsImg from '../img/edreams.gif'
+import edeamsImg from '../img/edreams.gif';
+import opodoImg from '../img/opodo.gif'
 import './style.css';
 
 
@@ -90,6 +91,72 @@ export default function Projects() {
                                             <Icon link name="github" size="big" /> See Code
                                         </Label>
                                         <Label as="a" href="https://escard.tk/" >
+                                            <Icon link name="mouse pointer" size="big" /> Go to site
+                                        </Label>
+
+
+                                    </Card.Content>
+                                </Card>
+                            </Grid.Column>
+                        </Grid>
+                    </div>
+                    <div className="w-slick-card">
+                        <Grid stackable columns="2"
+                            padded >
+                            <Grid.Column width="6">
+                                <Image src={opodoImg} href="https://www.opodo.co.uk/best-time-to-book-flights/" target='_blank' size="medium" alt="" />
+                            </Grid.Column>
+                            <Grid.Column  width="10">
+                                <Card fluid color="blue">
+                                    <Card.Content>
+                                        <Card.Header>Opodo - Best Time To Book</Card.Header>
+                                        <Card.Meta> Landing Page for Odpodo </Card.Meta>
+                                        <Card.Description> Uses Google Chart API + Structured Data </Card.Description>
+
+                                    </Card.Content>
+                                    <Card.Content>
+                                        <Card.Description>
+                                            <Container textAlign="justified">
+                                                This PR campaing is launched anually in Opodo, showing the best prices to book a flight, based the Odigeo Data. The campaing is launched in 4 different markets/countries. 
+                                        </Container>
+                                        </Card.Description>
+                                    </Card.Content>
+                                    <Card.Content textAlign='left'>
+                                        <Header as='h4'>
+                                            <Icon name='users' />
+                                            <Header.Content>User Story</Header.Content>
+                                        </Header>
+                                        <List floated="left">
+                                            <List.Item floated="left">
+                                            <Icon name="angle right"/>   User can interact with the graphs to see the best price.
+                                            </List.Item>
+                                            <List.Item floated="left">
+                                            <Icon name="angle right"/>   User can see best price by country and month.
+                                            </List.Item>
+                                            <List.Item floated="left">
+                                            <Icon name="angle right"/>   When user search in google appears FAQ structured data.
+                                            </List.Item>
+                                        </List>
+                                    </Card.Content>
+                                    <Card.Content>
+                                        <Header as='h4'>
+                                            <Icon name='code' />
+                                            <Header.Content>Tech Stack</Header.Content>
+                                        </Header>
+                                        <Card.Description  >
+                                            <Container textAlign="justified" >
+                                                The Landing page was developed using Google Charts API and Structured Data. It uses propietary CSS libraries and Boostrap CSS. jQuery is used to adapt the size of the graphs when the browser window is resized. Page is W3C compliant and the QA involves Google Page Speed and Rich Text Snippet tool. 
+                                        </Container>
+                                        <br/>
+                                            <Label tag color="blue">HTML, CSS, JS</Label>
+                                            <Label tag color="yellow"> jQuery </Label>
+                                            <Label tag color="orange"> Google Charts API </Label>
+                                            <Label tag color="violet"> UX / UI </Label>
+                                        </Card.Description>
+                                    </Card.Content>
+                                    <Card.Content>
+
+                                        <Label as="a" href="https://www.opodo.co.uk/best-time-to-book-flights/" >
                                             <Icon link name="mouse pointer" size="big" /> Go to site
                                         </Label>
 

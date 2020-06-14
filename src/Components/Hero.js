@@ -22,12 +22,16 @@ function Hero() {
                    Frontend Web Developer
     </Header>
     <Divider hidden clearing fitted  />
+    <Header as='h5' floated='left' color="grey">
+                    +5 years dev experience
+    </Header>
+    <Divider hidden clearing fitted  />
     <Header as='h3' floated='left' color="orange">
                     |  HTML  |  CSS  |  JS  |
     </Header>
     <Divider clearing hidden fitted />
     <Header as='h4' floated='left' color="teal">
-                    |  REACT  | BOOTSTRAP | SASS | FIREBASE | AWS |
+                    |  REACT  | NODE | SASS | FIREBASE | AWS |
     </Header>
     <Divider clearing hidden fitted />
     <Header as='h5' floated='left' color="olive">

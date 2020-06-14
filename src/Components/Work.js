@@ -12,7 +12,7 @@ function Work() {
     return (
         <>
                <Divider horizontal section >
-      <Header as='h2' content="Experience" subheader="More info at  Linkedin">
+      <Header as='h2' content="Dev Experience" subheader="More info at  Linkedin">
 
       </Header>
     </Divider>
