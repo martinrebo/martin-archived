@@ -6,6 +6,7 @@ import aguafy from './../img/aguafy-logo.png';
 import exclusivas from './../img/faro-logo.png';
 import bicos from './../img/bicos-logo.png';
 import info from './../img/info-logo.png';
+import veepee from './../img/Veepee.png'
 
 
 function Work() {
@@ -25,7 +26,7 @@ function Work() {
                             <Card.Content>
                                 <Card.Header>Online Travel Agency</Card.Header>
                                 <Card.Meta>
-                                    <span className='date'>SEO Webmaster</span>
+                                    <span className='date'>FullStack Developer</span>
                                 </Card.Meta>
                                 <Card.Description>Develop SEO Webpages </Card.Description>
                             </Card.Content>
@@ -61,7 +62,7 @@ function Work() {
                             <Card.Content>
                                 <Card.Header>Water Distribution </Card.Header>
                                 <Card.Meta>
-                                    <span className='date'>Web Developer</span>
+                                    <span className='date'>FullStack Developer</span>
                                 </Card.Meta>
                                 <Card.Description>Develop ecommerce platform </Card.Description>
                             </Card.Content>
@@ -76,18 +77,18 @@ function Work() {
                 </Grid.Row>
 
                 <Grid.Row columns={3}>
-                    <Grid.Column>
-                        <Card centered color="orange">
-                            <Image src={exclusivas} size="small" centered />
+                <Grid.Column>
+                        <Card centered color="black">
+                            <Image src={veepee} size="small" centered />
                             <Card.Content>
-                                <Card.Header>Logistics</Card.Header>
+                                <Card.Header>Ecommerce</Card.Header>
                                 <Card.Meta>
-                                    <span className='date'>Web Developer</span>
+                                    <span className='date'>FullStack Developer</span>
                                 </Card.Meta>
-                                <Card.Description>Develop Web and Internal Tools</Card.Description>
+                                <Card.Description> Develop Internal Tools </Card.Description>
                             </Card.Content>
                             <Card.Content extra>
-                                <a href="https://exclusivasfaro.com/" target="_blank" rel="noreferrer noopener">
+                                <a href="https://www.veepee.com" target="_blank" rel="noreferrer noopener">
                                     <Icon name='mouse pointer' />
                                     Go to site
       </a>
@@ -113,17 +114,17 @@ function Work() {
                         </Card>
                     </Grid.Column>
                     <Grid.Column>
-                        <Card centered color="black">
-                            <Image src={info} size="small" centered />
+                        <Card centered color="orange">
+                            <Image src={exclusivas} size="small" centered />
                             <Card.Content>
-                                <Card.Header>Marketing Agency</Card.Header>
+                                <Card.Header>Logistics</Card.Header>
                                 <Card.Meta>
-                                    <span className='date'>Founder</span>
+                                    <span className='date'>Web Developer</span>
                                 </Card.Meta>
-                                <Card.Description> Marketing Campaings for music events </Card.Description>
+                                <Card.Description>Develop Web and Internal Tools</Card.Description>
                             </Card.Content>
                             <Card.Content extra>
-                                <a href="https://www.facebook.com/InfopartyLdn/" target="_blank" rel="noreferrer noopener">
+                                <a href="https://exclusivasfaro.com/" target="_blank" rel="noreferrer noopener">
                                     <Icon name='mouse pointer' />
                                     Go to site
       </a>

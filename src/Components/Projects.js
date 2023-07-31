@@ -25,7 +25,7 @@ export default function Projects() {
     return (
         <>
             <Divider horizontal section >
-                <Header as='h2' content="Projects" subheader="Examples of my recent work (2020)">
+                <Header as='h2' content="Projects" subheader="Examples of my work (2017-2023)">
 
                 </Header>
             </Divider>
@@ -35,20 +35,21 @@ export default function Projects() {
                         <Grid stackable columns="2"
                             padded >
                             <Grid.Column width="6">
-                                <Image src={datepanImg} href="https://datepan.com/" target='_blank' size="medium" alt="" />
+                                <Image src={datepanImg} href="https://wudtime.com/" target='_blank' size="medium" alt="" />
                             </Grid.Column>
                             <Grid.Column  width="10">
                                 <Card fluid color="blue">
                                     <Card.Content>
-                                        <Card.Header>DatePan (2020) </Card.Header>
-                                        <Card.Meta> Meet people in the real world. Swipe dates, not persons </Card.Meta>
-                                        <Card.Description> Single Page Web App (SPA) with CRUD operations </Card.Description>
+                                        <Card.Header>DatePan (2022) </Card.Header>
+                                        <Card.Meta> (Renamed as WudTime)  </Card.Meta>
+                                        <Card.Meta> Meet humans in the real world. Swipe dates, not persons </Card.Meta>
+                                        <Card.Description> Universal App with React Native </Card.Description>
 
                                     </Card.Content>
                                     <Card.Content>
                                         <Card.Description>
                                             <Container textAlign="justified">
-                                                This Web app is my current project. This is a Progresive Web App (PWA) where the users can swipe, create, join events and chat.                                                
+                                                 This App can be publish for Android, IOS and Web. Users can swipe, create, join events and chat.                                              
                                         </Container>
                                         </Card.Description>
                                     </Card.Content>
@@ -76,19 +77,19 @@ export default function Projects() {
                                         </Header>
                                         <Card.Description  >
                                             <Container textAlign="justified" >
-                                                The Single Page Application (SPA) was developed using the MERN Stack and deployed on the Google Cloud App Engine. It is using Material UI. The codebase is kept on a Github private repository. 
+                                                The App was developed using the MERN Stack (Expo / React Native) and deployed on the Google Cloud App Engine. It is using Material UI. The codebase is kept on a Github private repository. 
                                                 The database is using MongoDB Atlas. The chat service is using Socket.io
                                         </Container>
                                         <br/>
                                             <Label tag color="blue">MongoDB</Label>
                                             <Label tag color="orange"> Express </Label>
-                                            <Label tag color="violet"> React</Label>
+                                            <Label tag color="violet"> React Native</Label>
                                             <Label tag color="yellow"> Node </Label>
                                             <Label tag  color="teal"> Google Cloud </Label>
                                         </Card.Description>
                                     </Card.Content>
                                     <Card.Content>
-                                        <Label as="a" href="https://datepan.com/" target="_blank" >
+                                        <Label as="a" href="https://wudtime.com/" target="_blank" >
                                             <Icon link name="mouse pointer" size="big" /> Go to site
                                         </Label>
 
@@ -115,7 +116,7 @@ export default function Projects() {
                                     <Card.Content>
                                         <Card.Description>
                                             <Container textAlign="justified">
-                                                This app is my personal project and currently I'm still working on it. The project is a Progresive Web App (PWA) where the users can store cards and read them offline.
+                                                This app is my personal project. The project is a Progresive Web App (PWA) where the users can store cards and read them offline.
                                                 The cards are interesting Podcasts, Blogs and Courses related to Web Development. Also the user can choose Light/Dark Mode.
                                         </Container>
                                         </Card.Description>
@@ -155,7 +156,7 @@ export default function Projects() {
                                         </Card.Description>
                                     </Card.Content>
                                     <Card.Content>
-                                        <Label as="a" href="https://github.com/martinrebo/escard-private" target="_blank">
+                                        <Label as="a" href="https://github.com/warteamx/escard-private" target="_blank">
                                             <Icon link name="github" size="big" /> See Code
                                         </Label>
                                         <Label as="a" href="https://tinkar-tk.web.app/" target="_blank">
@@ -293,7 +294,7 @@ export default function Projects() {
                                         </Card.Description>
                                     </Card.Content>
                                     <Card.Content>
-                                        <Label as="a" href="https://github.com/martinrebo/React-movie-and-moodsr">
+                                        <Label as="a" href="https://github.com/warteamx/React-movie-and-moodsr">
                                             <Icon link name="github" size="big" /> See Code
                                         </Label>
                                         <Label as="a" href="https://martinreboredo.com/proyectos/rakuten/" >
