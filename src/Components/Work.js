@@ -5,7 +5,6 @@ import playbusiness from './../img/play-logo.png';
 import aguafy from './../img/aguafy-logo.png';
 import exclusivas from './../img/faro-logo.png';
 import bicos from './../img/bicos-logo.png';
-import info from './../img/info-logo.png';
 import veepee from './../img/Veepee.png'
 
 

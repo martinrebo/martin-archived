@@ -41,11 +41,11 @@ function Hero() {
                         </Header>
                         <Divider clearing hidden fitted />
 
-                        <a href=" https://www.linkedin.com/in/martin-reboredo-garcia/" target="_blank" title="Linkedin"> <Icon link name="linkedin alternate" size="big" /> </a>
+                        <a href="https://www.linkedin.com/in/martin-reboredo-garcia/" target="_blank" rel="noopener noreferrer" title="Linkedin"> <Icon link name="linkedin alternate" size="big" /> </a>
 
 
-                        <a href="https://github.com/warteamx" target="_blank" title="Github"> <Icon link name="github" size='big' /> </a>
-                        <a href="https://martinreboredo.com/blog/" target="_blank" title="Blog"> <Icon link name="blogger" size='big' /> </a>
+                        <a href="https://github.com/warteamx" target="_blank" rel="noopener noreferrer" title="Github"> <Icon link name="github" size='big' /> </a>
+                        <a href="https://martinreboredo.com/blog/" target="_blank"  rel="noopener noreferrer" title="Blog"> <Icon link name="blogger" size='big' /> </a>
                         <Divider clearing />
                         <Label>
                             <Icon name="mail" /> hello@martinreboredo.com
