@@ -141,7 +141,7 @@ export default function Portfolio() {
                                 </div>
                             </Card.Content>
                             <Card.Content extra>
-                                <a href="https://martinreboredo.com/proyectos/rakuten/" target="_blank"  rel="noopener noreferrer">
+                                <a href="https://martinreboredo.com/portfolio/proyectos/rakuten/" target="_blank"  rel="noopener noreferrer">
                                     <Icon name='mouse pointer' />
                                     Go to site
                             </a>
@@ -196,7 +196,7 @@ export default function Portfolio() {
                                 </div>
                             </Card.Content>
                             <Card.Content extra>
-                                <a href="https://martinreboredo.com/index2.html" target="_blank" rel="noopener noreferrer" >
+                                <a href="https://martinreboredo.com/proyectos/oldfiles/index2.html" target="_blank" rel="noopener noreferrer" >
                                     <Icon name='mouse pointer' />
                                     Go to site
                             </a>

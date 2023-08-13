@@ -5,20 +5,65 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Software Developer</title>
 </head>
+<style>
+    body {
+      background-image: url('./background.jpg');
+      background-size: cover;
+      background-repeat: no-repeat;
+      height: 100vh;
+      text-align: center;
+        font-family: Arial, Helvetica, sans-serif;
+
+    }
+    header {
+        background-color: rgba(0, 0, 0, 0.5);
+        color: white;
+        padding: 20px;
+        margin: 20px;
+    }
+    h1 {
+        font-size: 50px;
+    }
+    nav {
+        background-color: rgba(255, 255, 255, 0.5);
+        color: white;
+        padding: 20px;
+        margin: 20px;
+    }
+    a {
+        border: 1px solid black;
+        padding: 10px;
+        margin: 10px;
+        text-decoration: none;
+        font-size: 20px;
+        color: black;
+        background-color: white;
+    }
+    footer {
+        background-color: rgba(255, 255, 255, 0.5);
+        color: white;
+        position: fixed;
+        bottom: 0;
+        text-align: center;
+        width: 100vw;
+    }
+    img {
+        max-width: 100px;
+        max-height: 100px;
+    }
+    </style>
 <body>
     <header>
-        <h1>Martin Reboredo</h1>
+        <h1>Software Developer</h1>
+        <img src="./skull-and-crossbones.webp" loading="lazy" alt="Telemoji (March 2023)">
     </header>
-    
     <nav>
-        <ul>
-            <li><a href="./blog">Blog</a></li>
-            <li><a href="./portfolio">Portfolio</a></li>
-        </ul>
+            <a href="./blog">Blog</a>
+            <a href="./portfolio">Portfolio</a>
     </nav>
-    
     <footer>
-        <p>Contact me at: <a href="www.linkedin.com/in/martin-reboredo-garcia">Linkedin: Martin</a></p>
+        <!-- create a safe link with no opener no referrer -->
+        <p><a href="https://www.linkedin.com/in/martin-reboredo-garcia" target="_blank" rel="noopener noreferrer">Contact</a></p>
     </footer>
 </body>
 </html>
